@@ -1,22 +1,19 @@
 {
-  "name": "pusha-temiz-guard",
-  "version": "0.0.2",
-  "description": "Pusha Temiz Guard",
-  "main": "Pusha.js",
+  "name": "pusha-sekme-guard",
+  "version": "0.0.1",
+  "description": "Pusha-sekme-guard",
+  "main": "pusha.js",
   "scripts": {
-    "start": "node pusha.js"
+    "test": "node pusha.js"
   },
-  "engines": {
-    "node": "12.x"
-  },
-  "author": "Pusha",
-  "license": "ISC",
+  "author": "Pusha-sekme-guard",
+  "license": "MIT",
   "dependencies": {
+    "discord-buttons": "^2.4.1",
     "discord.js": "^12.5.3",
-    "express": "^4.17.1",
-    "fs": "0.0.1-security",
-    "mongoose": "^5.13.11",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.1",
+    "mongoose": "^5.13.12",
     "request": "^2.88.2"
-  },
-  "keywords": []
+  }
 }
